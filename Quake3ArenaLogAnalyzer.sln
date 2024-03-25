@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34707.107
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quake3ArenaLogAnalyzer.Tests", "tests\Quake3ArenaLogAnalyzer.Tests\Quake3ArenaLogAnalyzer.Tests.csproj", "{BA678649-2835-48E6-8ED1-000FEB927AFC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6D7528D9-B889-4CDA-8930-86C29D78C009}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{DB5F6408-DE3B-4587-81A1-61AB9796B2BF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quake3ArenaLogAnalyzer", "src\Quake3ArenaLogAnalyzer\Quake3ArenaLogAnalyzer.csproj", "{FDCDB450-0DCC-40CD-9229-C8ECD3620CA8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quake3ArenaLogAnalyzer.Common", "src\Quake3ArenaLogAnalyzer.Common\Quake3ArenaLogAnalyzer.Common.csproj", "{F3A651A3-446D-4729-80B0-1ADDA0FECDDE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{57DBA604-0DBD-4E83-83EF-F191E790CFCF}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		architecture.svg = architecture.svg
+		docker-compose.yaml = docker-compose.yaml
+		Dockerfile = Dockerfile
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA678649-2835-48E6-8ED1-000FEB927AFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA678649-2835-48E6-8ED1-000FEB927AFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA678649-2835-48E6-8ED1-000FEB927AFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA678649-2835-48E6-8ED1-000FEB927AFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDCDB450-0DCC-40CD-9229-C8ECD3620CA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDCDB450-0DCC-40CD-9229-C8ECD3620CA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDCDB450-0DCC-40CD-9229-C8ECD3620CA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDCDB450-0DCC-40CD-9229-C8ECD3620CA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3A651A3-446D-4729-80B0-1ADDA0FECDDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3A651A3-446D-4729-80B0-1ADDA0FECDDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3A651A3-446D-4729-80B0-1ADDA0FECDDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3A651A3-446D-4729-80B0-1ADDA0FECDDE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BA678649-2835-48E6-8ED1-000FEB927AFC} = {DB5F6408-DE3B-4587-81A1-61AB9796B2BF}
+		{FDCDB450-0DCC-40CD-9229-C8ECD3620CA8} = {6D7528D9-B889-4CDA-8930-86C29D78C009}
+		{F3A651A3-446D-4729-80B0-1ADDA0FECDDE} = {6D7528D9-B889-4CDA-8930-86C29D78C009}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BE463579-E6FA-487F-8C65-4DA6DF05D1CB}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,7 @@
+version: '3.8'
+
+services:
+  quake-3-arena-log-analyzer:
+    build:
+      context: .
+      dockerfile: Dockerfile
